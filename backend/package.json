@@ -1,0 +1,21 @@
+{
+  "name": "skycast-server",
+  "version": "1.0.0",
+  "description": "SkyCast API: a small Express proxy that keeps the RapidAPI key on the server",
+  "private": true,
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=20.19"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.7",
+    "express": "^5.3.0",
+    "express-rate-limit": "^8.7.1"
+  }
+}
